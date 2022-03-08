@@ -1,12 +1,12 @@
 package hello.typeconverter.typeconverter.converter;
 
-import converter.IntegerToStringConverter;
-import converter.IpPortToStringConverter;
-import converter.StringToIntegerConverter;
-import converter.StringToIpPortConverter;
+import hello.typeconverter.converter.IntegerToStringConverter;
+import hello.typeconverter.converter.IpPortToStringConverter;
+import hello.typeconverter.converter.StringToIntegerConverter;
+import hello.typeconverter.converter.StringToIpPortConverter;
 import org.junit.jupiter.api.Test;
 import org.springframework.core.convert.support.DefaultConversionService;
-import type.IpPort;
+import hello.typeconverter.type.IpPort;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
